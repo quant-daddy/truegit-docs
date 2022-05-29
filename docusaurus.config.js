@@ -60,6 +60,11 @@ const config = {
             position: "left",
             label: "Docs",
           },
+          {
+            position: "right",
+            label: "Truegit",
+            href: "https://truegit.io",
+          },
         ],
       },
       footer: {

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: Post
 ---
 
@@ -94,7 +94,7 @@ tags: [kubernetes, graphql]
 
 ## Authors
 
-The ID of authors of this post. To reference an author, you must [add the author](/docs/authors) in your blog configuration file.
+The IDs of authors of this post. To reference an author, you must [add the author](/docs/authors) in your blog configuration file.
 
 Default: No authors
 
