@@ -12,6 +12,18 @@ authors:
     name: Author 1
     title: Short title
     description: Long description
+    url: https://google.com
+    profileImage: ./assets/author-1.png
+    socials:
+      facebook: https://www.facebook.com/my-profile
+      twitter: https://www.twitter.com/my-profile
+      instagram: https://www.instagram.com/my-profile
+      url: https://mywebsite.com
+      youtube: https://www.youtube.com/c/my-channel
+      linkedin: https://www.linkedin.com/in/my-profile
+      email: hello@truegit.io
+      github: https://github.com/my-profile
+      reddit: https://www.reddit.com/user/my-profile
   author-2:
     name: Author 2
     title: Short title
