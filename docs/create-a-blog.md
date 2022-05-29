@@ -4,40 +4,20 @@ sidebar_position: 1
 
 # Create a Blog
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+To create a blog on Truegit, you need to do follow these steps:
 
-- `src/pages/index.js` -> `localhost:3000/`
-- `src/pages/foo.md` -> `localhost:3000/foo`
-- `src/pages/foo/bar.js` -> `localhost:3000/foo/bar`
+1. **Create a Github repository** with a `truegit.yaml` configuration file at the root folder. If you have an existing repository, simple add the `truegit.yaml` file.
+2. **Install the [Github App](https://github.com/apps/truegit-app)** and give it access to the repository. You can do right after you install the app or configuring an existing installation to give it access to the repository. You can find your Truegit app inside Settings > Applications in your Github dashboard.
+3. At this point, your blog should be live. However, to find and manage your blog, you must **create an account** on [Truegit](https://truegit.io).
 
-## Create your first React Page
+## Adding a new blog
 
-Create a file at `src/pages/my-react-page.js`:
+Adding a new blog is simple. Simply install the [Github App](https://github.com/apps/truegit-app) and give it access to the repository where your blog lives (a repository with `truegit.yaml` file). You can find your Truegit app inside Settings > Applications in your Github dashboard.
 
-```jsx title="src/pages/my-react-page.js"
-import React from "react";
-import Layout from "@theme/Layout";
+## App Permissions
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+Our Github app requires permissions to read and write content of your repository, access Pull Requests (PR) and make new Pull Requests, and add comments to issues. We need to be able to write content to your repository so that you can edit your posts on Truegit and other viewers may suggest an edit to your posts. Each edit to your post creates a new PR, which you may choose to merge to the main branch.
 
-A new page is now available at `http://localhost:3000/my-react-page`.
+## Updating Your blog
 
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at `http://localhost:3000/my-markdown-page`.
+After your blog is created, all subsequent pushes to branches will generate Preview Deployments, and all changes made to the Production Branch (usually "main" or "master") will result in a Production Deployment. You may access these from your dashboard.
