@@ -63,7 +63,7 @@ date: 1989/07/11
 
 ## Banner Image
 
-The banner image of your post. It must be a [path](/docs/asset-path) to an image file in your repository.
+The banner image of your post. It must be a [path](/docs/assets) to an image file in your repository.
 
 Supports `png`, `jpeg`, `jpg`, and `webp` formats.
 
