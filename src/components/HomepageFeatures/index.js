@@ -1,46 +1,63 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Write in markdown",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Write your posts in the markdown format in your favorite editor. We
+        support Github flavored markdown.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Version Control your blog",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Manage your content in a git repository. Make PR to preview changes to
+        your blog. Push to deployment branch for changes to go live.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "Custom Domain",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Fully managed custom domain for a small monthly fee. Try 30 days free.
+      </>
+    ),
+  },
+  {
+    title: "Branding",
+    description: (
+      <>Make your blog personal by picking your theme color, logo, and more.</>
+    ),
+  },
+  {
+    title: "Collaborative publishing",
+    description: (
+      <>
+        Use Github to collaborate on your posts using Pull Requests. Every PR
+        publishes a preview of your blog.
+      </>
+    ),
+  },
+  {
+    title: "Fully Managed",
+    description: (
+      <>
+        No need to manage servers. Add one config file to your repository and
+        your blog is live.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
+    <div className={clsx("col col--4")} style={{ marginTop: 40 }}>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
