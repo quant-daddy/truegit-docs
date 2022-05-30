@@ -6,13 +6,13 @@ sidebar_position: 1
 
 To create a blog on Truegit, you need to do follow these steps:
 
-1. **Create a Github repository** with a `truegit.yaml` configuration file at the root folder. If you have an existing repository, simple add the `truegit.yaml` file. You may also **[clone this sample repository](https://github.com/Kollate/truegit-test)** to get started.
-2. **Install the [Github App](https://github.com/apps/truegit-app)** and give it access to the repository. You can do right after you install the app or configuring an existing installation to give it access to the repository. You can find your Truegit app inside Settings > Applications in your Github dashboard.
+1. **Create a Github repository** with a `truegit.yaml` configuration file at the root folder. If you have an existing repository, simple add the `truegit.yaml` file. You may also **[clone this sample repository](https://bit.ly/3GwWozt)** to get started.
+2. **Install the [Github App](https://bit.ly/3GyRCBG)** and give it access to the repository. You can do right after you install the app or configuring an existing installation to give it access to the repository. You can find your Truegit app inside Settings > Applications in your Github dashboard.
 3. At this point, your blog should be live. However, to find and manage your blog, you must **create an account** on [Truegit](https://truegit.io).
 
 ## Adding a new blog
 
-Adding a new blog is simple. Simply install the [Github App](https://github.com/apps/truegit-app) and give it access to the repository where your blog lives (a repository with `truegit.yaml` file). You can find your Truegit app inside Settings > Applications in your Github dashboard.
+Adding a new blog is simple. Simply install the [Github App](https://bit.ly/3GyRCBG) and give it access to the repository where your blog lives (a repository with `truegit.yaml` file). You can find your Truegit app inside Settings > Applications in your Github dashboard.
 
 ## App Permissions
 
