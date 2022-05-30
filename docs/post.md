@@ -138,6 +138,14 @@ Note that a draft can only be viewed by you.
 draft: true
 ```
 
+## Skip Listing
+
+Sometimes you may not want a post to be listed but is can be viewed. For instance, you may not want to list the `about.md` page. Setting `skipListing` flat to true removes the post from any of the lists.
+
+```yaml
+skipListing: true
+```
+
 ## Featured Post
 
 To feature a post on the landing page of your blog, you can use the `featured` flag. Note that we currently feature only one post per blog.
